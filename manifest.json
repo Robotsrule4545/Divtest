@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Div Moving",
+    "version": "v1.0.0",
+    "description": "Move div with wasd.",
+    "icons": {
+        "16": "./favicons/favicon.png",
+        "32": "./favicons/favicon1.png",
+        "128": "./favicons/favicon2.png"
+    }
+}

@@ -1,0 +1,6 @@
+.player {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 170, 0);
+    text-align: center;
+}
