@@ -10,6 +10,7 @@ console.log('Made by robot0730.');
 box.style.top = '150px';
 box.style.left = '150px';
 
+/*
 // Moving logic:
 
 document.addEventListener('keydown', movement, false);
@@ -33,3 +34,4 @@ function movement(e) {
         console.log(box.style.right);
     }
 }
+*/
