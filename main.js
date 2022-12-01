@@ -15,20 +15,20 @@ box.style.left = '150px';
 document.addEventListener('keydown', movement, false);
 
 function movement(e) {
-    var keyCode = e.code;
-    if (keycode == 87); {
+    var key = e.key;
+    if (key == "w"); {
         int(box.style.top) = int(box.style.top) + 1;
         console.log(box.style.top);
     }
-    elif (keyCode == 65); {
+    elif (key == "a"); {
         box.style.left = int(box.style.left) + 1;
         console.log(box.style.left);
     }
-    elif (keyCode == 83); {
+    elif (key == "s"); {
         box.style.top = box.style.top - 1;
         console.log(box.style.down);
     }
-    elif (keyCode == 68); {
+    elif (key == "d"); {
         box.style.left = box.style.left - 1;
         console.log(box.style.right);
     }
