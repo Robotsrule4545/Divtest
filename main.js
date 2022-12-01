@@ -16,19 +16,19 @@ document.addEventListener('keydown', movement, false);
 
 function movement(e) {
     var key = e.key;
-    if (key == "w"); {
+    if (key == "w") {
         box.style.top = box.style.top + 1;
         console.log(box.style.top);
     }
-    elif (key == "a"); {
+    else if (key == "a") {
         box.style.left = int(box.style.left) + 1;
         console.log(box.style.left);
     }
-    elif (key == "s"); {
+    else if (key == "s") {
         box.style.top = box.style.top - 1;
         console.log(box.style.down);
     }
-    elif (key == "d"); {
+    else if (key == "d") {
         box.style.left = box.style.left - 1;
         console.log(box.style.right);
     }
