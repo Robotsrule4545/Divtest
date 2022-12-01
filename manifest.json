@@ -4,8 +4,6 @@
     "version": "v1.0.0",
     "description": "Move div with wasd.",
     "icons": {
-        "16": "./assets/favicons/favicon.png",
-        "32": "./assets/favicons/favicon1.png",
-        "128": "./assets/favicons/favicon2.png"
+        "128": "https://www.dropbox.com/s/wfkjiv0mgp70zg5/favicon2.png?dl=1"
     }
 }
