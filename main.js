@@ -15,7 +15,7 @@ box.style.left = '150px';
 document.addEventListener('keydown', movement, false);
 
 function movement(e) {
-    var keyCode = e.keyCode;
+    var keyCode = e.code;
     if (keycode == 87); {
         int(box.style.top) = int(box.style.top) + 1;
         console.log(box.style.top);
