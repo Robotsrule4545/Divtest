@@ -1,4 +1,5 @@
 const box = document.getElementById('moving');
+let output = '';
 
 // Confirm it's working.
 
@@ -10,7 +11,7 @@ console.log('Made by robot0730.');
 box.style.top = '150px';
 box.style.left = '150px';
 
-/*
+
 // Moving logic:
 
 document.addEventListener('keydown', movement, false);
@@ -18,20 +19,19 @@ document.addEventListener('keydown', movement, false);
 function movement(e) {
     var key = e.key;
     if (key == "w") {
-        box.style.top = box.style.top + 1;
-        console.log(box.style.top);
     }
     else if (key == "a") {
-        box.style.left = int(box.style.left) + 1;
-        console.log(box.style.left);
     }
     else if (key == "s") {
-        box.style.top = box.style.top - 1;
-        console.log(box.style.down);
     }
     else if (key == "d") {
-        box.style.left = box.style.left - 1;
-        console.log(box.style.right);
     }
 }
-*/
+    // Converting the box.style.top = 150px to become 150
+
+    //TODO: first take off px then integer-ify
+function convert(input) {
+    for (let i = 0; i = input.length(); i++){
+        
+    }
+}
