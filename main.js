@@ -17,7 +17,7 @@ document.addEventListener('keydown', movement, false);
 function movement(e) {
     var key = e.key;
     if (key == "w"); {
-        int(box.style.top) = int(box.style.top) + 1;
+        box.style.top) = box.style.top + 1;
         console.log(box.style.top);
     }
     elif (key == "a"); {
