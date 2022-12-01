@@ -1,5 +1,3 @@
-const { dismissOverlay } = require("@ionic/core/dist/types/utils/overlays");
-
 const box = document.getElementById('moving');
 
 // Confirm it's working.
@@ -19,7 +17,7 @@ document.addEventListener('keydown', movement, false);
 function movement(e) {
     var keyCode = e.keyCode;
     if (keycode == 87); {
-        box.style.top = int(box.style.top) + 1;
+        int(box.style.top) = int(box.style.top) + 1;
         console.log(box.style.top);
     }
     elif (keyCode == 65); {
