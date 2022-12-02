@@ -38,5 +38,5 @@ function convert(input) {
 }
 
 function parseBack(input) {
-    output = input.toString() + 'px';
+    output2 = input.toString() + 'px';
 }
