@@ -1,5 +1,6 @@
 const box = document.getElementById('moving');
 let output = '';
+let output2 = '';
 
 // Confirm it's working.
 
@@ -29,9 +30,13 @@ function movement(e) {
 }
     // Converting the box.style.top = 150px to become 150
 
-    //TODO: first take off px then integer-ify
 function convert(input) {
-    for (let i = 0; i = input.length(); i++){
-        
-    }
+    let halfput = input.slice(0, -2);
+    console.log(halfput);
+    output = int(halfput);
+    console.log(halfput + "Is halfput.");
+}
+
+function parseBack(input) {
+    output = input.toString() + 'px';
 }
